@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21068FE1-52F0-4AF7-9B48-104FDC23F78A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{6C5CB780-9276-4F9A-9ED2-8D21EAD4F590}"
+	ProjectSection(SolutionItems) = preProject
+		about.html = about.html
+		cleanser.html = cleanser.html
+		facecare.html = facecare.html
+		feedback1.html = feedback1.html
+		home.html = home.html
+		login.html = login.html
+		moisturizer.html = moisturizer.html
+		oil.html = oil.html
+		serum.html = serum.html
+		signup.html = signup.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{B3ADB3D4-0B76-49D3-8180-A6D9C39D09EC}"
+	ProjectSection(SolutionItems) = preProject
+		scripts.js = scripts.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{0C212C8A-86D3-48EA-9585-ADA3FF5C53E0}"
+	ProjectSection(SolutionItems) = preProject
+		styles.css = styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IMGs", "IMGs", "{7DA91A98-7831-41D4-89F6-4C73FE86A498}"
+	ProjectSection(SolutionItems) = preProject
+		selfcare.png = selfcare.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VIDs", "VIDs", "{EDFE4FB1-0AEF-43D7-8EBA-74DC48D490A7}"
+	ProjectSection(SolutionItems) = preProject
+		ad.mp4 = ad.mp4
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oils", "Oils", "{E56F65B0-4107-4780-A6F6-11EAA5100414}"
+	ProjectSection(SolutionItems) = preProject
+		oil1.jpeg = oil1.jpeg
+		oil2.jpg = oil2.jpg
+		oil3.jpg = oil3.jpg
+		oil4.jpeg = oil4.jpeg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serums", "Serums", "{5D848828-AB97-4E9E-BDDD-5D0602368D1F}"
+	ProjectSection(SolutionItems) = preProject
+		serum1.jpeg = serum1.jpeg
+		serum2.webp = serum2.webp
+		serum3.jpg = serum3.jpg
+		serum4.jpg = serum4.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moisturizers", "Moisturizers", "{6C35F989-B66F-4E6B-9D88-9A421DCA07E7}"
+	ProjectSection(SolutionItems) = preProject
+		mos1.jpeg = mos1.jpeg
+		mos2.jpg = mos2.jpg
+		mos3.jpeg = mos3.jpeg
+		mos4.jpeg = mos4.jpeg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cleansers", "Cleansers", "{46D78AFD-0CAE-4DE0-9567-614AC463BF0F}"
+	ProjectSection(SolutionItems) = preProject
+		cet.webp = cet.webp
+		kiehls.jpg = kiehls.jpg
+		OIP (1).jpeg = OIP (1).jpeg
+		one.webp = one.webp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facecare", "Facecare", "{B24D1B66-CB0E-4DF3-B6C6-5F4B834D1A92}"
+	ProjectSection(SolutionItems) = preProject
+		cleansers.png = cleansers.png
+		moist.jpeg = moist.jpeg
+		R.jpeg = R.jpeg
+		serum.jpeg = serum.jpeg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{B0C4111A-F25C-4775-AD0F-52701C4155AA}"
+	ProjectSection(SolutionItems) = preProject
+		lady1.jpg = lady1.jpg
+		lady2.jpg = lady2.jpg
+		lady3.webp = lady3.webp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C5CB780-9276-4F9A-9ED2-8D21EAD4F590} = {21068FE1-52F0-4AF7-9B48-104FDC23F78A}
+		{B3ADB3D4-0B76-49D3-8180-A6D9C39D09EC} = {21068FE1-52F0-4AF7-9B48-104FDC23F78A}
+		{0C212C8A-86D3-48EA-9585-ADA3FF5C53E0} = {21068FE1-52F0-4AF7-9B48-104FDC23F78A}
+		{7DA91A98-7831-41D4-89F6-4C73FE86A498} = {21068FE1-52F0-4AF7-9B48-104FDC23F78A}
+		{EDFE4FB1-0AEF-43D7-8EBA-74DC48D490A7} = {21068FE1-52F0-4AF7-9B48-104FDC23F78A}
+		{E56F65B0-4107-4780-A6F6-11EAA5100414} = {7DA91A98-7831-41D4-89F6-4C73FE86A498}
+		{5D848828-AB97-4E9E-BDDD-5D0602368D1F} = {7DA91A98-7831-41D4-89F6-4C73FE86A498}
+		{6C35F989-B66F-4E6B-9D88-9A421DCA07E7} = {7DA91A98-7831-41D4-89F6-4C73FE86A498}
+		{46D78AFD-0CAE-4DE0-9567-614AC463BF0F} = {7DA91A98-7831-41D4-89F6-4C73FE86A498}
+		{B24D1B66-CB0E-4DF3-B6C6-5F4B834D1A92} = {7DA91A98-7831-41D4-89F6-4C73FE86A498}
+		{B0C4111A-F25C-4775-AD0F-52701C4155AA} = {7DA91A98-7831-41D4-89F6-4C73FE86A498}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ED680C0-B413-4302-8AB5-3A5A2A2B3175}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oils</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ba2cf90f3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assests/Citycons_bag-512.webp" type="image/x-icon">
+</head>
+<body>
+    <header id="header1">
+        <div>
+            <img src="selfcare.png" id="logo" alt="Website's Logo" width="50" height="50" />
+        </div>
+        <div>
+            <a href="#" class="logo">SelfCareByReina</a>
+        </div>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="#">Products<b>▼</b></a>
+                    <ul>
+                        <li><a href="#">BodyCare</a></li>
+                        <li><a href="#">HairCare</a></li>
+                        <li><a href="#">NailCare</a></li>
+                        <li>
+                            <a href="facecare.html">FaceCare<b>▸</b></a>
+                            <ul>
+                                <li><a href="cleanser.html">Cleansers</a></li>
+                                <li><a href="moistuizer.html">Moisturizers</a></li>
+                                <li><a href="serum.html">Serums</a></li>
+                                <li><a href="oil.html">Oils</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="feedback1.html">Feedback</a></li>
+                <li>
+                    <span onclick="openBucket()" style="position: absolute; top: 15px;"><i class='fas fa-shopping-cart' style='font-size:36px'></i></span>
+                    <span class="items-count"></span>
+                </li>
+            </ul>
+            <span onclick="openBucket()" class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
+        </nav>
+
+    </header>
+    <div class="cart">
+
+        <header>
+            <span><b>Cart Items</b></span> <span class="exit"><i onclick="closeBucket()" class="fas fa-times"></i></span>
+        </header>
+
+        <main>
+
+            <ol>
+                <li>Item-Name</li>
+                <li>Qty</li>
+                <li>Total</li>
+            </ol>
+
+            <section>
+
+                <ul id="ul">
+                </ul>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+
+        </footer>
+
+    </div>
+
+    <main>
+
+        <div class="itemsc item-1o" data-item="Roseship Oil" data-price="350"></div>
+
+        <div class="itemsc item-2o" data-item="Castor Oil" data-price="400"></div>
+
+        <div class="itemsc item-3o" data-item="Cedarwood Oil" data-price="500"></div>
+
+        <div class="itemsc item-4o" data-item="Carrot Seed Oil" data-price="325"></div>
+
+    </main>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer id="pagefooter">
+        <p>&copy; 2023 SelfCareByReina. All rights reserved.</p>
+        <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

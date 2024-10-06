@@ -1,0 +1,132 @@
+﻿#signupbody {
+    background-color: #9f9da7;
+    font-size: 1.6rem;
+    font-family: 'open sans', sans-serif;
+    color: #2b3e51;
+    margin: 0;
+    padding: 0;
+}
+
+#create-account-wrap h2 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.signupcontainer {
+    background-color: #fff;
+    width: 35%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,.2);
+}
+
+form {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form content */
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+#create-account-wrap input {
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    padding: 0 10px; /* Adjusted padding for better appearance */
+    margin: 10px 0; /* Equal margin between text fields */
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    background: 0 0;
+}
+
+    input:focus, input:invalid:focus {
+        border-color: #3ca9e2;
+    }
+
+    input:valid ~ .validation {
+        display: block;
+        border-color: #0c0;
+    }
+
+.validation span {
+    background: #0c0;
+    position: absolute;
+    border-radius: 6px;
+}
+
+    .validation span:first-child {
+        top: 30px;
+        left: 14px;
+        width: 20px;
+        height: 3px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .validation span:last-child {
+        top: 35px;
+        left: 8px;
+        width: 11px;
+        height: 3px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+input[type=submit] {
+    border: none;
+    display: block;
+    background-color: #3ca9e2;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 300px;
+}
+
+    input[type=submit]:hover {
+        background-color: #329dd5;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease
+    }
+
+#login-form-wrap {
+    background-color: #fff;
+    width: 35%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0;
+    border-radius: 4px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,.2);
+}
+
+#create-account-wrap {
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+}
